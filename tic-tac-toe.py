@@ -68,7 +68,6 @@ def best_move(board):
     Determine the AI's best move.
     """
     if is_empty_grid:
-        # Keep AI's first move random
         empty_positions = [(i, j) for i in range(3) for j in range(3)]
         return random.choice(empty_positions)
 
